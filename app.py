@@ -35,7 +35,7 @@ def generate_art(size=128):
 
 
 # ---------------- Dash App ----------------
-def launch_app(total_images=1000, page_size=10):
+def launch_app(total_images=1000000, page_size=10):
     app = Dash(__name__)
 
     # In-memory cache
