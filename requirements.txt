@@ -1,0 +1,4 @@
+dash
+pillow
+numpy
+flask
