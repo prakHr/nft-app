@@ -101,6 +101,7 @@ import os
 
 if __name__ == "__main__":
     app = launch_app()
+    server = app.server
     # Use the Replit provided PORT
     port = int(os.environ.get("PORT", 3000))  # 3000 is default fallback
     app.run(debug=False, host="0.0.0.0", port=port)
